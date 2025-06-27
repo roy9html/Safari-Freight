@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+    <nav class="navigation"> 
+  <a href="index.html">Home</a> |
+  <a href="About.html">About</a> 
+  <a href="Services.html">Services</a>
+  <a href="Hiring.html">Hiring</a>
+  <a href="Contact.html">Contact</a>
+</nav>
+
+    </header>
+    <section class="hero" id="Home">
+       <div class="hero-text">
+         <h1>Welcome to Our Website</h1>
+        <p>Your one-stop solution for all your needs.</p>
+
+       </div>
+    </section>
+    
+    <section class="about-split" id="About">
+        <div class="about-container left">
+          <div class="about-image">
+            <img src="./image/image.png" alt="">
+          </div>
+          <div class="about-text">
+            <h2>About us</h2>
+        <p>Safari Freight is a proudly Kenyan logistics and transportation company . </p>
+        <span id="more-text" style="display: none;">
+            that delivers reliable, timely, and secure freight solutions across East Africa.
+Founded with a mission to simplify cargo movement in the region, we specialize in ground transport, warehousing, packaging, and full logistics services tailored for businesses of all sizes. Whether it’s rural last-mile delivery or urban bulk movement, our team ensures every shipment is handled with professionalism and care.
+At Safari Freight, we believe in building trust through transparency, efficiency, and local knowledge. Our name – Safari – means “journey,” and we walk every step of it with you and your cargo.
+        </span>
+<button onclick="ToggleReadmore()" id="ReadMoreBtn">ReadMore</button>
+          </div>
+        </div>
+    </section>
+<section id="Services" class="Services-section">
+        <h3>Our Services</h3>
+      <div class="service-grid">
+        <div class="service-box">
+          <img src="./image/kenyat.jpg" alt="">
+          <h3>GROUND TRANSPORT</h3>
+            <p>We offer efficient and timely ground transport services across Kenya and East Africa. Our fleet is equipped to handle various cargo sizes safely and quickly.</p>
+        </div>
+        <div class="service-box">
+            <h3>WAREHOUSING</h3>
+            <img src="./image/warehouse2.jpg" alt="">
+            <P>Safari Freight offers secure, spacious, and well-managed warehouses to keep your goods safe and organized. Our facilities are ideal for both short-term and long-term storage needs.
+
+</P>
+        </div>
+          <div class="service-box">
+            <h3>PACKAGING AND STORING</h3>
+            <img src="./image/packaging.jpg" alt="">
+            <P>We provide careful packaging solutions and safe storage for goods of all types. Whether fragile, heavy, or bulky, your cargo is professionally packed and stored until it’s ready for transport.</P>
+        </div>
+          <div class="service-box">
+            <h3>LOGISTICS SERVICES</h3>
+            <img src="./image/logistics.jpg" alt="">
+            <P>From pickup to delivery, we manage every step of the logistics process. Safari Freight ensures seamless coordination, real-time updates, and dependable service for all your supply chain needs.
+
+</P>
+        </div>
+      </div>
+    </section>
+
+    <section id="Hiring" class="hiring-section">
+      <div class="hiring-contetnt">
+          <h4>Hiring</h4>
+          <p>Join us</p>
+          <p>We’re Hiring!
+Safari Freight is currently looking for hardworking and reliable individuals to join our team.
+
+If you're interested, kindly send the following details to our email:
+
+Your full name
+
+Your phone number
+
+The position you’re applying for
+
+Your updated CV or resume
+
+Any relevant documents (like licenses or certificates)
+
+Please send your application to careers@safarifreight.com.
+Only shortlisted candidates will be contacted. We look forward to hearing from you!</p>
+        <div class="hiring-image"></div>
+        <img src="./image/hiring image.jpg" alt="">
+      </div>
+      
+    </section>
+    <section id="Contact" class="contact">
+    <div class="contact-overlay">
+      <h2>CONTACT US</h2>
+    <form>
+      <input type="text" name="name" placeholder="Name" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <textarea name="message" placeholder="Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    </div>
+  </section>
+<footer>
+    <p>&copy; 2023 Safari Freight. All rights reserved.</p>
+    <p>Follow us on:
+        <a href="https://www.facebook.com/SafariFreight" target="_blank">Facebook</a>,
+        <i class="fa-brands fa-square-facebook"></i>
+        <a href="https://www.twitter.com/SafariFreight" target="_blank">Twitter</a>,
+        <i class="fa-brands fa-x-twitter"></i>
+        <a href="https://www.instagram.com/SafariFreight" target="_blank">Instagram</a>
+        <i class="fa-brands fa-instagram"></i>
+    </p>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
