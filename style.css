@@ -78,7 +78,7 @@
 
 .service-box h3 {
   font-size: 18px;
-  color: #222;
+  color: #f3f1f1;
   margin-bottom: 10px;
 }
 
@@ -89,7 +89,7 @@
 }
 
 .contact {
-    background-image:url("./image/contactimage.jpg") ;
+    background-image:url("./image/1785494.jpg") ;
     padding: 60px 20px; ;
     display: flex;
     justify-content:center ;
@@ -106,7 +106,12 @@
   align-items: center;
   gap: 40px;
   padding: 60px 20px;
-  background-color: #fff7f7;
+  background-image: url(./image/hiring\ image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
 }
 
 .hiring-content {
@@ -114,20 +119,6 @@
   min-width: 300px;
 }
 
-
-.hiring-image {
-  flex: 1;
-  min-width: 300px;
-  display: flex;
-  justify-content: center;
-}
-
-.hiring-image img {
-  width: 100%;
-  max-width: 500px;
-  border-radius: 8px;
-  object-fit: cover;
-}
 footer{
   
         border: 1px solid black;
@@ -170,5 +161,30 @@ footer{
 
 }
 body{
-  padding-top: 60px;
+  padding-top: 30px;
+}
+.hero-text {
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hero {
+  background-image: url(./image/1831233.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.nav-icon {
+  width: 32px;
+  height: auto;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+.company-name {
+  font-family:  sans-serif;
+  color: white;
 }

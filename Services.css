@@ -1,7 +1,8 @@
 body {
-    background-image: url(./image/About3.jpg);
+    background-image: url(./image/A\ Volvo\ 2016.png);
     background-repeat: no-repeat;
     background-size: cover;
+      
 }
 .navigation {
     width: 100vw;
@@ -31,4 +32,13 @@ footer{
         text-align: center;
         position: fixed;
     
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.Services, .Services h3, .Services p {
+    color: white;
 }

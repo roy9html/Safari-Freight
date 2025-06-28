@@ -9,7 +9,7 @@
   border-radius: 10px;
 }
 body {
-  background-image: url(./image/About3.jpg);
+  background-image: url(./image/A\ Volvo\ 2016.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -45,4 +45,10 @@ footer{
         position: fixed;
         width: 100%;
     
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  
 }

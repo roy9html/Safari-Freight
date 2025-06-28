@@ -1,9 +1,10 @@
 body {
-    background-image: url(./image/About3.jpg);
+    background-image: url(./image/A\ Volvo\ 2016.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     padding: 60px;
+     padding-bottom: 60px;
 }
 .navigation {
     width: 100vw;
@@ -36,4 +37,15 @@ footer{
         width: 100%;
         text-align: center;
         position: fixed;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.Hiring {
+    padding-top: 20px; /* enough space to clear the nav bar */
+    color: whitesmoke; 
+     text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+    
 }
