@@ -26,3 +26,4 @@ This is a simple static website built using:
   - Logistics Services  
 - ✅ Hiring Section with company job offer message and image  
 - ✅ Contact S
+safari-freight-1s2zu3y22-roys-projects-e3d03a7e.vercel.app
